@@ -1,0 +1,50 @@
+# 🧠 Archivos de configuración del sistema
+.DS_Store
+Thumbs.db
+
+# 🔧 Archivos generados por Maven
+/target/
+/logs/
+/build/
+
+# 🧠 Configuración de IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ☕ Archivos de compilación Java
+*.class
+*.jar
+*.war
+*.ear
+
+# 🔐 Archivos sensibles (opcional)
+*.log
+*.env
+.env.*
+
+# ⚙️ Configuración OS/IDE común
+*.swp
+*~
+*.tmp
+*.bak
+
+# 🚫 Configuración específica de Windows
+ehthumbs.db
+desktop.ini
+
+# ✅ Si usas alguna base de datos embebida
+*.h2.db
+*.mv.db
+
+# ✅ Si usas Git en múltiples módulos
+**/target/
+**/*.iml
+**/.classpath
+**/.project
+**/.settings/
+
+# ✅ Node.js frontend (si tienes alguno embebido)
+node_modules/
+dist/
